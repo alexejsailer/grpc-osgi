@@ -7,7 +7,7 @@ To build this project run:
 mvn clean install
 ``` 
 
-Copy your built bundle from the target folder and all below mentioned dependencies from maven or use the following command if you are using karaf:
+Copy your built bundle from the target folder and copy all below mentioned dependencies from maven or use the following command if you are using karaf:
 
 ```shell
 bundle:install mvn:com.google.protobuf/protobuf-java/3.12.4
